@@ -1,0 +1,60 @@
+﻿table{
+    margin: auto;
+    margin-top: 300px;
+}
+
+body {
+    background-image: url("tempConvertBackground.jpg");
+    font-family: Arial;
+}
+
+td.celError, td.faError {
+    color: red;
+}
+
+/* input {
+    border: 2px solid grey;
+    border-radius: 4px;
+} */
+
+#convertCel {
+    display: inline-block;
+    color: floralwhite;
+    border: 1px solid #CCC;
+    width: 15px;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin-right:30px;
+}
+
+#convertFa {
+    display: inline-block;
+    color: floralwhite;
+    border: 1px solid #CCC;
+    width: 15px;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+#convertCel:hover, #convertFa:hover {
+    color: black;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+    background-color: darkgrey;
+}
+
+#convertCel:active, #convertFa:active {
+    color: white;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+}
